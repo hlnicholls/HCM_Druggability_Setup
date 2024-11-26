@@ -1,8 +1,18 @@
+# In Apocrita on-demand start a session for "Code server BETA"
+
+https://ondemand.hpc.qmul.ac.uk/pun/sys/dashboard/batch_connect/sys/code-server/session_contexts/new
+
+# Click on the 3 lines in the top left corner then click "Terminal" then "New Terminal"
+
+# In the terminal, copy paste these lines below on by one (ignore commented outline that start with #):
+
 # Start a session on QMUL computing cluster with a maximum runtime of 8 hours and 20 GB of memory allocated.
 # If it fails to start set time to 1 hour (1:00:00)
+
 qlogin -l h_rt=8:00:00 -l h_vmem=20G 
 
 # Load the Anaconda module, which is used for managing Python environments and packages.
+
 module load anaconda3 
 
 # Create a new Python environment named "mantisml2_env" with Python version 3.8.
