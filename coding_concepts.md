@@ -77,6 +77,10 @@ Use RStudio via Apocrita's Ondemand service:
 
 [https://ondemand.hpc.qmul.ac.uk/pun/sys/dashboard](https://ondemand.hpc.qmul.ac.uk/pun/sys/dashboard/batch_connect/sys/rstudio-2022/session_contexts/new)
 
+RStudio tutorial (skip installation, it is already available on apocrita):
+
+https://www.datacamp.com/tutorial/r-studio-tutorial?utm_source=chatgpt.com 
+
 Here are some useful tips and tricks to help you write efficient and effective R scripts.
 
 ---
@@ -118,11 +122,15 @@ summary(data)     # Provides summary statistics for each column
 
 ## Save your work in the R workspace
 - Save your workspace (all variables and objects you have currently loaded in R) to a file using:
+  
 ```save.image("my_workspace.RData")```
 
 - Load the workspace later with:
+  
 ```load("my_workspace.RData")```
 
+
+--- 
 
 
 # Writing R Scripts: Style Guidelines
