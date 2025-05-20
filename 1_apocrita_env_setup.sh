@@ -1,8 +1,3 @@
-# In Apocrita on-demand start a session for "Code server BETA"
-
-https://ondemand.hpc.qmul.ac.uk/pun/sys/dashboard/batch_connect/sys/code-server/session_contexts/new
-
-# Click on the 3 lines in the top left corner then click "Terminal" then "New Terminal"
 
 # In the terminal, copy paste these lines below on by one (ignore commented outline that start with #):
 
