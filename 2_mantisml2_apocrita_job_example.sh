@@ -11,4 +11,4 @@ conda activate mantis-ml-2
 
 cd ./mantis-ml-release-2 
 
-mantisml2 -d "type 2 diabetes" -o mantisml2_hcm_results
+mantisml2 -d "type 2 diabetes" -o mantisml2_t2d_results
